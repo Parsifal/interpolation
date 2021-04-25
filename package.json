@@ -1,0 +1,8 @@
+{
+  "name": "interpolation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Parsifal/interpolation.git",
+  "author": "Parsifal",
+  "license": "GPL-3.0-or-later"
+}
