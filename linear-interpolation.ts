@@ -1,4 +1,4 @@
-import { InterpolationService } from "interpolation.interface";
+import { InterpolationService } from "./interpolation.interface";
 
 export class LinearInterpolationService implements InterpolationService {
   getPoint(x: number, points: number[][]) {
