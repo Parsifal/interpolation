@@ -1,6 +1,6 @@
-import { InterpolationService } from "./interpolation.interface";
+import { Interpolation } from "./interpolation.interface";
 
-export class LinearInterpolationService implements InterpolationService {
+export class LinearInterpolation implements Interpolation {
   getPoint(x: number, points: number[][]) {
     return this.getFunction(points)(x);
   }
