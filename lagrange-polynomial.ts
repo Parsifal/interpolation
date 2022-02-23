@@ -1,11 +1,11 @@
 import { Interpolation } from "./interpolation.interface";
 
 export class LagrangePolynomial implements Interpolation {
-  getPoint(x: number, points: number[][]) {
+  getPoint(x: number, points: number[][]): number {
     return this.getFunction(points)(x);
   }
 
-  getFunction(points: number[][]) {
+  getFunction(points: number[][]): (x: number) => number {
     const n = points.length - 1;
     const f = (i: number, j: number, x: number): number => {
       if (i === j) return points[i][1];

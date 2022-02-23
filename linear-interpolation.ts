@@ -1,11 +1,11 @@
 import { Interpolation } from "./interpolation.interface";
 
 export class LinearInterpolation implements Interpolation {
-  getPoint(x: number, points: number[][]) {
+  getPoint(x: number, points: number[][]): number {
     return this.getFunction(points)(x);
   }
 
-  getFunction(points: number[][]) {
+  getFunction(points: number[][]): (x: number) => number {
     const first = points[0];
     const n = points.length - 1;
     if (points.length === 0) {
