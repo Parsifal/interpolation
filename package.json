@@ -1,8 +1,19 @@
 {
   "name": "interpolation",
   "version": "1.0.0",
+  "description": "In the mathematical field of numerical analysis, interpolation is a type of estimation, a method of constructing new data points within the range of a discrete set of known data points.",
   "main": "index.js",
-  "repository": "git@github.com:Parsifal/interpolation.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Parsifal/interpolation.git"
+  },
   "author": "Parsifal",
-  "license": "GPL-3.0-or-later"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Parsifal/interpolation/issues"
+  },
+  "homepage": "https://github.com/Parsifal/interpolation#readme"
 }
